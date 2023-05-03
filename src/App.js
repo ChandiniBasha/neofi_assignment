@@ -57,9 +57,7 @@ function App() {
   return (
     <div className="App">
       <div className="Header">
-        <div>
-          <img className="logo" src="../../neofi_logo.png" alt="logo" />
-        </div>
+      <div className="NeoFi-head">NeoFi</div>
         <div className="menu">
           <ul>
             <li className="trade">Trade</li>
@@ -76,7 +74,7 @@ function App() {
       </div>
       <div className="body">
         <div className="box">
-          <img className="form-logo" src="../../logo-1.png" alt="logo" />
+          <img className="form-logo" src="https://logowik.com/content/uploads/images/ethereum3649.jpg" alt="logo" />
           <form>
             <div className="container">
               <div className="top-box">

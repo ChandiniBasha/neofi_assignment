@@ -7,6 +7,24 @@
   background: #0b0819;
 }
 
+.NeoFi-head{
+  position: absolute;
+  width: 100px;
+  height: 44px;
+  left: 81px;
+  top: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  text-transform: uppercase;
+  background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .logo {
   position: absolute;
   width: 83px;
@@ -265,9 +283,28 @@
     left: 60px;
   }
 
+  .NeoFi-head{
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 10px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    text-transform: uppercase;
+    background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
   .body {
     background: #0b0819;
     height: 800px;
+    width: 600px;
   }
 
   .logo {
