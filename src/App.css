@@ -394,3 +394,136 @@
     text-shadow: 0.364154px 0.364154px 0.364154px rgba(0, 0, 0, 0.25);
   }
 }
+
+
+@media only screen and (min-width: 1500px) {
+  .Header {
+    position: absolute;
+    width: 1000px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    background: #0b0819;
+  }
+
+  .box {
+    position: relative;
+    top: 150px;
+    border-radius: 23px;
+    border-color: rgb(46, 45, 45);
+    border-style: solid;
+    width: 400px;
+    left: 550px;
+  }
+
+  .NeoFi-head{
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 60px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    text-transform: uppercase;
+    background: linear-gradient(94.37deg, #3387D5 -5.94%, #7A06C9 115.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .body {
+    background: #0b0819;
+    height: 721px;
+    width: 1535px;
+  }
+
+  .logo {
+    position: absolute;
+    width: 83px;
+    height: 44px;
+    left: 10px;
+    top: 12px;
+  }
+  
+  .menu ul {
+    padding: 0;
+    margin-left: 630px;
+    margin-top: 20px;
+  }
+  
+  .menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .trade {
+    width: 48px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #627eea;
+  }
+  
+  .earn {
+    width: 36px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #5a5a5a;
+    margin-left: 20px;
+  }
+  
+  .about {
+    width: 36px;
+    height: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #5a5a5a;
+    margin-left: 30px !important;
+  }
+  
+  .connect {
+    box-sizing: border-box;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 1350px;
+    top: 14px;
+    background: linear-gradient(94.37deg, #3387d5 -5.94%, #7a06c9 115.34%);
+    border-radius: 30px;
+  }
+  
+  .connect-button {
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 17px;
+    top: 10px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0.364154px 0.364154px 0.364154px rgba(0, 0, 0, 0.25);
+  }
+}

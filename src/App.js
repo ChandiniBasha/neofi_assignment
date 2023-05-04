@@ -95,7 +95,7 @@ function App() {
               <input
                 className="input1-value"
                 type="number"
-                placeholder="0.00                                                      INR"
+                placeholder="0.00                                                   INR"
                 name="investAmount"
                 value={investAmount}
                 onChange={handleInvestAmountChange}
